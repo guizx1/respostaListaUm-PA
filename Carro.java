@@ -3,7 +3,7 @@
 public class Carro {
 	private String modelo;
 	private String marca;
-	private String ano;
+	private int ano;
 	private String placa;
 	public Carro(String modelo, String marca, String ano, String placa) {
 		
@@ -24,10 +24,10 @@ public class Carro {
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
-	public String getAno() {
+	public int getAno() {
 		return ano;
 	}
-	public void setAno(String ano) {
+	public void setAno(int ano) {
 		this.ano = ano;
 	}
 	public String getPlaca() {
